@@ -11,4 +11,5 @@ server.listen(port, () => {
     console.log(`Servidor Rodando na porta ${port}`)
 })
 
+module.exports = server
 
