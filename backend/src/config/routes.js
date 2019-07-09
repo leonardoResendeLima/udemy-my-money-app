@@ -10,6 +10,6 @@ module.exports = function (server) {
 		    message: 'Server is Working'
             })
     })
-    BillingCycle.register(router, '/billingCycle')
+    BillingCycle.register(router, '/billingCycles')
 
 }
