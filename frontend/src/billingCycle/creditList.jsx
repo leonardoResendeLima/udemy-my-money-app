@@ -17,10 +17,10 @@ class CreditList extends Component {
 								<th>Acoes</th>
 							</tr>
 						</thead>
+						<tbody>
+							{this.renderRows()}
+						</tbody>
 					</table>
-					<tbody>
-						{this.renderRows()}
-					</tbody>
 				</fieldset>
 			</Grid>
 		)
